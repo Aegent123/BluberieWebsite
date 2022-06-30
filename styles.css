@@ -190,6 +190,158 @@ form .submit:hover{
     cursor:pointer;
 }
 
+/* RESPONSIVE RULES*/
+
+@media screen and (max-width: 1400px){
+    .about img{
+        max-width:500px;
+        max-height:800px;
+        margin-left:200;
+    }
+    .about .text{
+        float:left;
+        margin-top:100px;
+        margin-left:20px;
+        margin-right:200px;
+    }
+    .special img{
+        width:500px;
+        height:auto;
+        margin-top:35px;
+        margin-right:300px;
+        float:right;
+    }
+    .special .text{
+        float:left;
+        margin-top:250px;
+        margin-left:250px;
+        margin-right:20px;
+    }
+}
+
+@media screen and (max-width: 1175px){
+    header {
+        height:250px;
+        background-size: 180%;
+        background-position:center;
+        height:130px;
+    }
+    header .mobile{
+        display:inline-block;
+    }
+    .vid iframe{
+        max-width:100%;
+        max-height:600px;
+    }
+    header .desktop{
+        display:none;
+    }
+    .about img{
+        max-width:400px;
+        max-height:700px;
+        margin-left:200px;
+    }
+    .about .text{
+        float:left;
+        margin-top:0px;
+        margin-left:20px;
+        margin-right:50px;
+    }
+    .special img{
+        width:300px;
+        height:auto;
+        margin-top:35px;
+        margin-right:300px;
+        float:right;
+    }
+    .special .text{
+        float:left;
+        margin-top:200px;
+        margin-left:250px;
+        margin-right:20px;
+    }
+}
+
+@media screen and (max-width: 830px){
+    header {
+        height:250px;
+    }
+    header .mobile{
+        display:block;
+    }
+    header .desktop{
+        display:none;
+    }
+    .vid iframe{
+        max-width:100%;
+        max-height:550px;
+    }
+    .about img{
+        max-width:350px;
+        max-height:650px;
+        margin-left:100px;
+    }
+    .special img{
+        width:300px;
+        height:auto;
+        margin-top:35px;
+        margin-right:300px;
+        float:right;
+    }
+    .special .text{
+        float:left;
+        margin-top:100px;
+        margin-left:140px;
+        margin-right:20px;
+    }
+    .special img{
+        width:300px;
+        height:auto;
+        margin-top:35px;
+        margin-right:300px;
+        float:right;
+    }
+    .special .text{
+        float:left;
+        margin-top:100px;
+        margin-left:100px;
+        margin-right:20px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    header{
+        height:200px;
+        background-position: 0 0px;
+    }
+    .vid iframe{
+        max-width:100%;
+        max-height:500px;
+    }
+    .about img{
+        max-width:250px;
+        max-height:500px;
+        margin-left:50px;
+        float:none;
+    }
+}
+
+@media screen and (max-width: 500px){
+    header{
+        height:200px;
+        background-position: 0 0px;
+    }
+    .vid iframe{
+        max-width:100%;
+        max-height:250px;
+    }
+    .about img{
+        max-width:200px;
+        max-height:400px;
+        margin-left:50px;
+    }
+}
+
 /* FOOTER */
 
 footer {
